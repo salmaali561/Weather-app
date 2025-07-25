@@ -1,27 +1,75 @@
-# WeatherApp
+🌦️ WeatherApp
+A simple weather forecast app built with Angular 16 that allows users to search for cities and display real-time weather conditions like temperature, humidity, and weather description.
+✅ Integrated with a free online Weather API.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
+🧰 Project Info
+Framework: Angular CLI v16.2.14
 
-## Development server
+Purpose: Discover weather conditions by city name
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+API: Public free weather API
 
-## Code scaffolding
+🚀 Getting Started
+🖥️ Development Server
+To run the app locally:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+bash
+Copy
+Edit
+ng serve
+Then navigate to:
+http://localhost:4200
+The app will automatically reload if you change any source files.
 
-## Build
+⚙️ Code Scaffolding
+Generate a new component:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+bash
+Copy
+Edit
+ng generate component component-name
+You can also generate:
 
-## Running unit tests
+directive
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+pipe
 
-## Running end-to-end tests
+service
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+class
 
-## Further help
+guard
+
+interface
+
+enum
+
+module
+
+🏗️ Build
+To build the project for production:
+
+bash
+Copy
+Edit
+ng build
+The build artifacts will be stored in the dist/ folder.
+
+🧪 Running Tests
+✅ Unit Tests
+bash
+Copy
+Edit
+ng test
+Runs unit tests using Karma.
+
+🔁 End-to-End Tests
+bash
+Copy
+Edit
+ng e2e
+To use this, install a package that supports e2e testing.
+
+📚 Further Help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
